@@ -147,3 +147,24 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+
+
+# BrandGuard AI specific
+
+# Backend environment variables
+backend/.env
+
+# Frontend environment variables
+frontend/.env
+
+# Uploaded files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# IDE settings
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
